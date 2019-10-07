@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(241, 237, 237);
+}
+
+
+
+/* TESTE "o" en rouge */
+
+.red{
+    color: red;
+}
+
+strong{
+    font-size: 50px;
+}
+
+
+nav{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button{
+    background-color: initial;
+    color: brown;
+    width: 20px;
+    display: none;
+    padding: 0;
+}
+
+nav hr{
+    margin: 0;
+}
+
+h1{
+    color: brown;
+}
+
+h1 span{
+    font-weight: normal;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: brown;
+}
+
+section:nth-child(odd){
+    background-color: rgb(241, 237, 237);
+}
+
+section > div:nth-child(odd){
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    padding: 2rem 0 5rem 0;
+    justify-content: space-between;
+}
+
+.textcontainer{
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 50%;
+}
+
+p{
+    color: gray;
+}
+
+article{
+    align-self: center;
+    width: 40%;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+button{
+    padding: .7rem;
+    background-color: brown;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+section img{
+    width: 15rem;
+}
+
+form{
+    width: 45%;
+    color: gray;
+}
+
+h4{
+    margin-top: 0;
+}
+
+label{
+    display: block;
+    margin: 1rem 0 .2rem 0;
+}
+
+input, textarea{
+    width: 100%;
+}
+
+#contain-names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.names{
+    width: 45%;
+}
+
+form button{
+    background-color: black;
+}
+
+.subtitle{
+    color: black;
+    font-weight: bold;
+}
+
+article h3{
+    text-align: center;
+}
+
+#follow{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+article i{
+    color: gray;
+}
+
+footer{
+    background-color: brown;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p, footer a{
+    color: white;
+}
+
+#footmobile{
+    display: none;
+}

@@ -1,12 +1,10 @@
 var p = document.getElementsByTagName("p");
 var button = document.getElementsByTagName("button");
-
 var a = document.getElementsByTagName("a");
-
 var h1 = document.getElementsByTagName("h1");
 var h2 = document.getElementsByTagName("h2");
 var h3 = document.getElementsByTagName("h3");
-
+/* CLASSE A ATTRIBUER AUX BALISES OUBLIEES */
 var other = document.getElementsByClassName("ored");
 
 var oRedList = [p, button, a, other, h1, h2, h3];
@@ -34,7 +32,6 @@ for (let k = 0; k < oRedList.length; k++) {
 
         oRedList[k][j].innerHTML = "";
 
-
         for (let i = 0; i < list.length; i++) {
             if (list[i] == "o") {
                 list[i] = "<span class=red>" + list[i] + "</span>";
@@ -44,6 +41,5 @@ for (let k = 0; k < oRedList.length; k++) {
             }
             oRedList[k][j].innerHTML += list[i];
         }
-
     }
 }
